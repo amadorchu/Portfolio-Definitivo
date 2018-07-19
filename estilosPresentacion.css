@@ -1,3 +1,9 @@
+ body{
+	 font-style:italic;
+	font-weight:bold;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+ }
+
 .contenedor{
 	width:100%;
 	max-width%:100%;
@@ -48,11 +54,11 @@ ul.barra2 li a:hover{
 }
 .titulo{
 	width:70%;
-	 margin-right:auto;
+	margin-right:auto;
     margin-left:auto;
 	box-sizing:border-box;
 	text-align:right;
-	font: verdana ;
+	
 }
 
 .containerimg{
@@ -85,7 +91,7 @@ ul.sobre {
 	text-align:left;
 }
 .separador{
-	margin: 20rem;
+	margin: 20em;
 }
 
 .containerh1{
@@ -95,9 +101,9 @@ ul.sobre {
   margin-left:auto;
   background-color: #F0F8FF;
   box-sizing:border-box;
-  padding: 3rem;
+  padding: 3em;
   text-align: left;
-  font: oblique bold 120% cursive ;
+  
 }
 .containerh2{
   width:70%;
@@ -106,7 +112,7 @@ ul.sobre {
   background-color:#F0F8FF;
   box-sizing:border-box;
   padding:3rem;
-  font: oblique bold 120% cursive;
+  
   text-align: center;
 }
 .containerh3{
@@ -116,7 +122,7 @@ ul.sobre {
   margin-left:auto;
   padding: 3rem;
   text-align: left;
-  font: oblique bold 120% cursive;
+  
   box-sizing:border-box;
 }
 	
@@ -134,54 +140,102 @@ footer{
     width:100%;
     margin-right:auto;
     margin-left:auto;
-	font: oblique bold 120% cursive;
+	
     box-sizing:border-box;
 	text-align: left;
 }
 
 @media screen and (max-width:600px){
-	.contenedor{
-		width:100%;
-	}
-	.imagen{
-	width:100%;
-	height:auto;
-}
 	.imagen1{
 	width:100%;
 	height:auto;
-	
-@media screen and (max-width:400px){
-	
-	.imagen{
-	width:100%;
-	height:auto;
-}
-	.imagen1{
-	width:100%;
-	height:auto;
-}
-	.nombre{
+	}
+	.titulo{
 		width:100%;
 	}
-	.desarrollador{
-		width:100%;
-	}
+	
+	.containerh1{
+  
+  width:100%;
+  
+  
+}
+.containerh2{
+  width:100%;
+  
+}
+.containerh3{
+ 
+  width:100%;
+  
+}
 	.barraimg{
 		width:100%;
 	}
 	.barra2{
 			width:100%;
 	}
-	.one{
+	
+	.footer{
 		width:100%;
 	}
-	.two{
+}
+
+
+@media screen and (max-width:400px){
+	
+	.imagen1{
+	width:100%;
+	height:auto;
+	}
+	.nombre{
+		width:100%;
+		text-align: center;
+		
+	}
+	.desarrollador{
+		width:100%;
+		text-align: center;
+		font-size:2em;
+	}
+	.containerh1{
+  
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: #F0F8FF;
+  box-sizing:border-box;
+  padding: 3em;
+  text-align: left;
+  
+}
+.containerh2{
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:#F0F8FF;
+  box-sizing:border-box;
+  padding:3rem;
+  
+  text-align: center;
+}
+.containerh3{
+  background-color:#F0F8FF;
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 3rem;
+  text-align: left;
+  
+  box-sizing:border-box;
+}
+	.barraimg{
 		width:100%;
 	}
-	.three{
-		width:100%;
+	.barra2{
+			width:100%;
 	}
+	
 	.footer{
 		width:100%;
 	}
