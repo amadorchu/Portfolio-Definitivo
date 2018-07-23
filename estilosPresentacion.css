@@ -1,9 +1,11 @@
- body{
+  body{
 	 font-style:italic;
 	font-weight:bold;
 	font-family:'Helvetica','Verdana','Monaco',sans-serif;
  }
-
+.icono{
+	font-size:2em;
+}
 .contenedor{
 	width:100%;
 	max-width%:100%;
@@ -14,10 +16,11 @@
 a{
 	text-decoration:none;
 }
-ul.barraimg {
 
+ul.barraimg {
+	
 	list-style-type: none;
-    margin: 0;
+   width:100%;
     padding: 0;
 	
  }
@@ -28,7 +31,7 @@ ul.barraimg {
 ul.barraimg li a {
     color: grey;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 16px;
     text-decoration: none;
 	font-size:2em;
 }
@@ -45,7 +48,7 @@ ul.barra2 {
 	 }
 ul.barra2 li a {
     color: grey;
-    padding: 14px 16px;
+    padding: 2px 20px;
     text-decoration: none;
 	font-size:2em;
 }
@@ -54,10 +57,11 @@ ul.barra2 li a:hover{
 }
 .titulo{
 	width:70%;
+	margin-top:10%;
 	margin-right:auto;
     margin-left:auto;
 	box-sizing:border-box;
-	text-align:right;
+	text-align:center;
 	
 }
 
@@ -97,6 +101,7 @@ ul.sobre {
 .containerh1{
   
   width:70%;
+  margin-top:60%;
   margin-right:auto;
   margin-left:auto;
   background-color: #F0F8FF;
@@ -111,7 +116,7 @@ ul.sobre {
   margin-left:auto;
   background-color:#F0F8FF;
   box-sizing:border-box;
-  padding:3rem;
+  padding:3em;
   
   text-align: center;
 }
@@ -120,7 +125,7 @@ ul.sobre {
   width:70%;
   margin-right:auto;
   margin-left:auto;
-  padding: 3rem;
+  padding: 3em;
   text-align: left;
   
   box-sizing:border-box;
@@ -146,27 +151,32 @@ footer{
 }
 
 @media screen and (max-width:600px){
+	.containerimg{
+		float:no-float;
+		width:100%;
+	}
 	.imagen1{
+	
+	height:auto;
+	}
+	.imagen{
 	width:100%;
 	height:auto;
 	}
 	.titulo{
-		width:100%;
+	width:100%;
 	}
 	
 	.containerh1{
+	width:100%;
+	}
+	.containerh2{
+	width:100%;
   
-  width:100%;
-  
-  
-}
-.containerh2{
-  width:100%;
-  
-}
-.containerh3{
+	}
+	.containerh3{
  
-  width:100%;
+	width:100%;
   
 }
 	.barraimg{
@@ -179,11 +189,16 @@ footer{
 	.footer{
 		width:100%;
 	}
+	
 }
 
 
 @media screen and (max-width:400px){
 	
+	.imagen1{
+	width:100%;
+	height:auto;
+	}
 	.imagen1{
 	width:100%;
 	height:auto;
@@ -201,36 +216,24 @@ footer{
 	.containerh1{
   
   width:100%;
-  margin-right:auto;
-  margin-left:auto;
-  background-color: #F0F8FF;
-  box-sizing:border-box;
-  padding: 3em;
-  text-align: left;
   
+  
+}
+.parrafo{
+	width:100%;
 }
 .containerh2{
   width:100%;
-  margin-right:auto;
-  margin-left:auto;
-  background-color:#F0F8FF;
-  box-sizing:border-box;
-  padding:3rem;
   
-  text-align: center;
 }
 .containerh3{
-  background-color:#F0F8FF;
-  width:100%;
-  margin-right:auto;
-  margin-left:auto;
-  padding: 3rem;
-  text-align: left;
   
-  box-sizing:border-box;
+  width:100%;
+  
 }
 	.barraimg{
 		width:100%;
+		text-align: center;
 	}
 	.barra2{
 			width:100%;
